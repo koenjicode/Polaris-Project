@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "PolarisEditor",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "KamuiCore",
+			"Enabled": true
+		},
+		{
+			"Name": "MotHead",
+			"Enabled": true
+		},
+		{
+			"Name": "PolarisDevelop",
+			"Enabled": true
+		},
+		{
+			"Name": "MotHeadAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "CatwalkClothInterface",
+			"Enabled": true
+		},
+		{
+			"Name": "CatwalkCloth",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GFur.cpp.obj": [
+			"FurCustomLod.gen.cpp.obj",
+			"FurLod.gen.cpp.obj",
+			"FurSplines.gen.cpp.obj",
+			"GFur.init.gen.cpp.obj",
+			"GFurComponent.gen.cpp.obj",
+			"FurCustomLod.cpp.obj",
+			"FurLod.cpp.obj",
+			"FurSplines.cpp.obj",
+			"GFurComponent.cpp.obj",
+			"GFurModule.cpp.obj"
+		]
+	}
+}

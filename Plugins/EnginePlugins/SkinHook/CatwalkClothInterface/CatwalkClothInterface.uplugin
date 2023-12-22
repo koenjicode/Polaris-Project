@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.4",
+	"FriendlyName": "CatwalkCloth Interface",
+	"Description": "Defines the interface to access and control cloth simulation by CatwalkCloth from blueprint and C++.",
+	"Category": "SkinHook",
+	"CreatedBy": "BANDAI NAMCO Studios, Inc.",
+	"CreatedByURL": "http://www.bandainamcostudios.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CatwalkClothInterface",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}

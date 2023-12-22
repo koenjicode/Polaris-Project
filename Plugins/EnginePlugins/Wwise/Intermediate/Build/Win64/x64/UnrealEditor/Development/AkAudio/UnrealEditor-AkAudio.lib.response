@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AkAudio.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealEngine\ModProjects\Polaris\Intermediate\Build\Win64\x64\PolarisEditor\Development\Engine\SharedPCH.Engine.InclOrderUnreal5_0.h.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.2_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.3_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.4_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.5_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.6_of_6.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Default.rc2.res"
+/OUT:"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.lib"

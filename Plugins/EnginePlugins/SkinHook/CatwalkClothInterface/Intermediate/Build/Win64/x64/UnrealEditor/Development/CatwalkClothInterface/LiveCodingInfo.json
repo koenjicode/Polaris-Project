@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CatwalkClothInterface.cpp.obj": [
+			"CatwalkClothCollisionAsset.gen.cpp.obj",
+			"CatwalkClothComponentBase.gen.cpp.obj",
+			"CatwalkClothExternalSimulationMeshSlot.gen.cpp.obj",
+			"CatwalkClothInterface.init.gen.cpp.obj",
+			"CollidingCollisions.gen.cpp.obj",
+			"ECwClothBoneScalingMode.gen.cpp.obj",
+			"ImportBoxCollisionVolume.gen.cpp.obj",
+			"ImportCapsuleCollisionVolume.gen.cpp.obj",
+			"ImportCollisionVolume.gen.cpp.obj",
+			"ImportSphereCollisionVolume.gen.cpp.obj",
+			"CatwalkClothCollisionAsset.cpp.obj",
+			"CatwalkClothComponentBase.cpp.obj",
+			"CatwalkClothExternalSimulationMeshSlot.cpp.obj",
+			"CatwalkClothInterfaceModule.cpp.obj",
+			"CollidingCollisions.cpp.obj",
+			"ImportBoxCollisionVolume.cpp.obj",
+			"ImportCapsuleCollisionVolume.cpp.obj",
+			"ImportCollisionVolume.cpp.obj",
+			"ImportSphereCollisionVolume.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CatwalkCloth.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealEngine\ModProjects\Polaris\Intermediate\Build\Win64\x64\PolarisEditor\Development\Engine\SharedPCH.Engine.InclOrderUnreal5_0.h.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\SkinHook\CatwalkCloth\Intermediate\Build\Win64\x64\UnrealEditor\Development\CatwalkCloth\Module.CatwalkCloth.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\SkinHook\CatwalkCloth\Intermediate\Build\Win64\x64\UnrealEditor\Development\CatwalkCloth\Default.rc2.res"
+/OUT:"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\SkinHook\CatwalkCloth\Intermediate\Build\Win64\x64\UnrealEditor\Development\CatwalkCloth\UnrealEditor-CatwalkCloth.lib"

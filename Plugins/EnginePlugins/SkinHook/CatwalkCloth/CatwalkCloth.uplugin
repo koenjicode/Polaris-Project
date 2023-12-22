@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.41.5",
+	"FriendlyName": "CatwalkCloth",
+	"Description": "Cloth simulator",
+	"Category": "SkinHook",
+	"CreatedBy": "BANDAI NAMCO Studios, Inc.",
+	"CreatedByURL": "http://www.bandainamcostudios.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CatwalkCloth",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CatwalkClothInterface",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}

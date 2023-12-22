@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GryphonLocalization",
+	"Description": "Gryphon Localization plugin",
+	"Category": "Other",
+	"CreatedBy": "Bandai Namco Studios Inc.",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GryphonLocalization",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

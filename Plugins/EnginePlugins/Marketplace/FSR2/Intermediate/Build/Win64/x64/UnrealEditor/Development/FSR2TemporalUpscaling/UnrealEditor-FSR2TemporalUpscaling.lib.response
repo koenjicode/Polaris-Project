@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FSR2TemporalUpscaling.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealEngine\ModProjects\Polaris\Intermediate\Build\Win64\x64\PolarisEditor\Development\Engine\SharedPCH.Engine.InclOrderUnreal5_0.h.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\FSR2\Intermediate\Build\Win64\x64\UnrealEditor\Development\FSR2TemporalUpscaling\Module.FSR2TemporalUpscaling.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\FSR2\Intermediate\Build\Win64\x64\UnrealEditor\Development\FSR2TemporalUpscaling\Default.rc2.res"
+/OUT:"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\FSR2\Intermediate\Build\Win64\x64\UnrealEditor\Development\FSR2TemporalUpscaling\UnrealEditor-FSR2TemporalUpscaling.lib"

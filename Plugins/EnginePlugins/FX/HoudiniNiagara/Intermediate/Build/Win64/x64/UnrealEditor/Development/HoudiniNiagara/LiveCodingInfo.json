@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoudiniNiagara.cpp.obj": [
+			"EHoudiniAttributes.gen.cpp.obj",
+			"EHoudiniPointCacheFileType.gen.cpp.obj",
+			"HoudiniEvent.gen.cpp.obj",
+			"HoudiniNiagara.init.gen.cpp.obj",
+			"HoudiniPointCache.gen.cpp.obj",
+			"NiagaraDataInterfaceHoudini.gen.cpp.obj",
+			"PointIndexes.gen.cpp.obj",
+			"HoudiniEvent.cpp.obj",
+			"HoudiniNiagaraModule.cpp.obj",
+			"HoudiniPointCache.cpp.obj",
+			"NiagaraDataInterfaceHoudini.cpp.obj",
+			"PointIndexes.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwisesoundengine\\module.wwisesoundengine.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine\\modprojects\\polaris\\intermediate\\build\\win64\\x64\\polariseditor\\development\\engine\\sharedpch.engine.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwisesoundengine\\definitions.wwisesoundengine.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akoutputdeviceid.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\public\\akoutputdeviceid.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\public\\akuint64wrapper.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuint64wrapper.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akoutputdeviceid.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuint32wrapper.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\public\\akuint32wrapper.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuint32wrapper.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuint64wrapper.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuniqueid.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\public\\akuniqueid.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\akuniqueid.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesoundengine\\uht\\wwisesoundengine.init.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\private\\akoutputdeviceid.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\private\\akuint32wrapper.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\private\\akuint64wrapper.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\private\\akuniqueid.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwisesoundengine\\private\\wwisesoundenginemodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

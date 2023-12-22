@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NiagaraUIRenderer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealEngine\ModProjects\Polaris\Intermediate\Build\Win64\x64\PolarisEditor\Development\Engine\SharedPCH.Engine.InclOrderUnreal5_0.h.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\Module.NiagaraUIRenderer.cpp.obj"
+"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\Default.rc2.res"
+/OUT:"D:\UnrealEngine\ModProjects\Polaris\Plugins\EnginePlugins\Marketplace\NiagaraUIRenderer\Intermediate\Build\Win64\x64\UnrealEditor\Development\NiagaraUIRenderer\UnrealEditor-NiagaraUIRenderer.lib"

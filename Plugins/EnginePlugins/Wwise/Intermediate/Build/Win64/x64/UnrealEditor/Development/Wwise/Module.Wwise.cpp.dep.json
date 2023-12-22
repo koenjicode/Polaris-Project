@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwise\\module.wwise.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine\\modprojects\\polaris\\intermediate\\build\\win64\\x64\\polariseditor\\development\\engine\\sharedpch.engine.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwise\\definitions.wwise.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwise\\uht\\wwise.init.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwise\\uht\\wwiseaudiolinkcomponent.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwise\\public\\wwiseaudiolinkcomponent.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\akcomponent.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\akgameobject.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\ertpcvaluetype.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\ertpcvaluetype.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\onakposteventcallbackdelegate.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\eakcallbacktype.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\eakcallbacktype.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\onakposteventcallbackdelegate.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\akgameobject.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\akaudio\\public\\eakcollisionchannel.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\eakcollisionchannel.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\akaudio\\uht\\akcomponent.generated.h",
+            "d:\\epiclibrary\\ue_5.2\\engine\\source\\runtime\\audiolink\\audiolinkengine\\public\\iaudiolinkblueprintinterface.h",
+            "d:\\epiclibrary\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\audiolinkengine\\uht\\iaudiolinkblueprintinterface.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwise\\uht\\wwiseaudiolinkcomponent.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwise\\uht\\wwiseaudiolinksettings.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwise\\public\\wwiseaudiolinksettings.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwise\\uht\\wwiseaudiolinksettings.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwise\\private\\wwiseaudiolinkcomponent.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwise\\private\\wwiseaudiolinksettings.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\wwise\\source\\wwise\\private\\wwisemodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

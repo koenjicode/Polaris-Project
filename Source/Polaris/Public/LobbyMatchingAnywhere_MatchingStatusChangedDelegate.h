@@ -1,0 +1,7 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ELobbyMatchingAnywhere_MatchingStatus.h"
+#include "LobbyMatchingAnywhere_MatchingStatusChangedDelegate.generated.h"
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FLobbyMatchingAnywhere_MatchingStatusChanged, ELobbyMatchingAnywhere_MatchingStatus, InPrevMatchingStatus, ELobbyMatchingAnywhere_MatchingStatus, InNewMatchingStatus);
+

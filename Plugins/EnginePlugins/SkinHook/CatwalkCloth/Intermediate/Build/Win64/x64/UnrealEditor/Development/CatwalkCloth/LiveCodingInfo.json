@@ -1,0 +1,46 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CatwalkCloth.cpp.obj": [
+			"CatwalkCloth.init.gen.cpp.obj",
+			"CatwalkClothComponent.gen.cpp.obj",
+			"CatwalkClothDebugSettings.gen.cpp.obj",
+			"CatwalkClothExternalMeshBindInfo.gen.cpp.obj",
+			"CatwalkClothExternalSimulationMesh.gen.cpp.obj",
+			"CatwalkClothExternalVariationBindInfo.gen.cpp.obj",
+			"CatwalkClothFilePath.gen.cpp.obj",
+			"CatwalkClothImportButtonPlaceholder.gen.cpp.obj",
+			"CatwalkClothLODGenerationLODSettings.gen.cpp.obj",
+			"CatwalkClothLODGenerationMeshSectionSettings.gen.cpp.obj",
+			"CatwalkClothLODParameterPlaceholder.gen.cpp.obj",
+			"CatwalkClothObject.gen.cpp.obj",
+			"CatwalkClothOverride.gen.cpp.obj",
+			"CatwalkClothSettings.gen.cpp.obj",
+			"CatwalkClothSimulationMeshPlaceholder.gen.cpp.obj",
+			"CatwalkClothVariation.gen.cpp.obj",
+			"CatwalkClothVariationCustomPropertyPlaceholder.gen.cpp.obj",
+			"CwClothDebugDrawComponent.gen.cpp.obj",
+			"ECatwalkClothVertexDebugDrawChannel.gen.cpp.obj",
+			"MergedMeshOriginalInfo.gen.cpp.obj",
+			"CatwalkClothComponent.cpp.obj",
+			"CatwalkClothDebugSettings.cpp.obj",
+			"CatwalkClothExternalMeshBindInfo.cpp.obj",
+			"CatwalkClothExternalSimulationMesh.cpp.obj",
+			"CatwalkClothExternalVariationBindInfo.cpp.obj",
+			"CatwalkClothFilePath.cpp.obj",
+			"CatwalkClothImportButtonPlaceholder.cpp.obj",
+			"CatwalkClothLODGenerationLODSettings.cpp.obj",
+			"CatwalkClothLODGenerationMeshSectionSettings.cpp.obj",
+			"CatwalkClothLODParameterPlaceholder.cpp.obj",
+			"CatwalkClothModule.cpp.obj",
+			"CatwalkClothObject.cpp.obj",
+			"CatwalkClothOverride.cpp.obj",
+			"CatwalkClothSettings.cpp.obj",
+			"CatwalkClothSimulationMeshPlaceholder.cpp.obj",
+			"CatwalkClothVariation.cpp.obj",
+			"CatwalkClothVariationCustomPropertyPlaceholder.cpp.obj",
+			"CwClothDebugDrawComponent.cpp.obj",
+			"MergedMeshOriginalInfo.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fsr2temporalupscaling\\module.fsr2temporalupscaling.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine\\modprojects\\polaris\\intermediate\\build\\win64\\x64\\polariseditor\\development\\engine\\sharedpch.engine.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fsr2temporalupscaling\\definitions.fsr2temporalupscaling.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2dedithermode.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\public\\efsr2dedithermode.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2dedithermode.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2historyformat.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\public\\efsr2historyformat.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2historyformat.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2landscapehismmode.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\public\\efsr2landscapehismmode.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2landscapehismmode.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2qualitymode.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\public\\efsr2qualitymode.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\efsr2qualitymode.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\fsr2settings.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\public\\fsr2settings.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\fsr2settings.generated.h",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\intermediate\\build\\win64\\unrealeditor\\inc\\fsr2temporalupscaling\\uht\\fsr2temporalupscaling.init.gen.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\private\\fsr2settings.cpp",
+            "d:\\unrealengine\\modprojects\\polaris\\plugins\\engineplugins\\marketplace\\fsr2\\source\\fsr2temporalupscaling\\private\\fsr2temporalupscalingmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
