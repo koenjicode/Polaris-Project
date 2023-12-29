@@ -83,7 +83,8 @@ Plugins/EnginePlugins/*/*/*/Intermediate/*
 DerivedDataCache/*
 
 # Content Folder
-Content/
+Content/*
+!Content/Mods/TekkenTestMod/*
 
 # Packaged Folder
-Packaged/
+Packaged/*
