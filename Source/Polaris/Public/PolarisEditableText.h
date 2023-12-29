@@ -14,7 +14,7 @@ public:
     void SetRawText(const FString& raw_text);
     
     UFUNCTION(BlueprintCallable)
-    void OnTextCommittedEvent(const FText& InText, TEnumAsByte<ETextCommit::Type> CommitMethod);
+    void OnTextCommittedEvent(const FText& InText, ETextCommit::Type CommitMethod);
     
     UFUNCTION(BlueprintCallable)
     void OnTextChangedEvent(const FText& InText);

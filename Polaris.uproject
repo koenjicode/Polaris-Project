@@ -16,6 +16,10 @@
 	],
 	"Plugins": [
 		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
 			"Name": "Niagara",
 			"Enabled": true
 		},

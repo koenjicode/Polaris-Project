@@ -11,6 +11,7 @@ public class HoudiniNiagara : ModuleRules {
             "CoreUObject",
             "Engine",
             "Niagara",
+            "NiagaraCore"
         });
     }
 }

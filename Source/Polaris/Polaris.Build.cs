@@ -27,6 +27,7 @@ public class Polaris : ModuleRules {
             "Slate",
             "SlateCore",
             "UMG",
+            "InputCore"
         });
     }
 }

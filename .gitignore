@@ -48,6 +48,10 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+Plugins/*/*/Binaries/*
+Plugins/*/*/*/Binaries/*
+Plugins/*/*/*/*/Binaries/*
+Plugins/EnginePlugins/FX/*/Binaries/*
 
 # Builds
 Build/*
@@ -72,3 +76,22 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Plugins/EnginePlugins/FX/HoudiniNiagara/Binaries/Win64/UnrealEditor-HoudiniNiagara.pdb
+Plugins/EnginePlugins/FX/HoudiniNiagara/Intermediate/Build/Win64/UnrealEditor/Inc/HoudiniNiagara/UHT/Timestamp
+Plugins/EnginePlugins/FX/HoudiniNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/HoudiniNiagara/UnrealEditor-HoudiniNiagara.dll.response
+Plugins/EnginePlugins/FX/HoudiniNiagara/Intermediate/Build/Win64/x64/UnrealEditor/Development/HoudiniNiagara/UnrealEditor-HoudiniNiagara.dll.response.old
+Plugins/EnginePlugins/Marketplace/DLSS/Intermediate/Build/Win64/UnrealEditor/Inc/DLSSBlueprint/UHT/Timestamp
+Plugins/EnginePlugins/Marketplace/FSR2/Intermediate/Build/Win64/UnrealEditor/Inc/FSR2TemporalUpscaling/UHT/Timestamp
+Plugins/EnginePlugins/Marketplace/NiagaraUIRenderer/Intermediate/Build/Win64/UnrealEditor/Inc/NiagaraUIRenderer/UHT/Timestamp
+Plugins/EnginePlugins/Runtime/CriWare/CriWare/Binaries/Win64/UnrealEditor-CriWareRuntime.pdb
+Plugins/EnginePlugins/Runtime/CriWare/CriWare/Intermediate/Build/Win64/UnrealEditor/Inc/CriWareRuntime/UHT/Timestamp
+Plugins/EnginePlugins/Runtime/CriWare/CriWare/Intermediate/Build/Win64/x64/UnrealEditor/Development/CriWareRuntime/UnrealEditor-CriWareRuntime.dll.response
+Plugins/EnginePlugins/Runtime/CriWare/CriWare/Intermediate/Build/Win64/x64/UnrealEditor/Development/CriWareRuntime/UnrealEditor-CriWareRuntime.dll.response.old
+Plugins/EnginePlugins/Runtime/CriWare/CriWareCinematics/Intermediate/Build/Win64/UnrealEditor/Inc/CriWareMovieScenes/UHT/Timestamp
+Plugins/EnginePlugins/SkinHook/CatwalkCloth/Intermediate/Build/Win64/UnrealEditor/Inc/CatwalkCloth/UHT/Timestamp
+Plugins/EnginePlugins/SkinHook/CatwalkClothInterface/Intermediate/Build/Win64/UnrealEditor/Inc/CatwalkClothInterface/UHT/Timestamp
+Plugins/EnginePlugins/Wwise/Intermediate/Build/Win64/UnrealEditor/Inc/AkAudio/UHT/Timestamp
+Plugins/EnginePlugins/Wwise/Intermediate/Build/Win64/UnrealEditor/Inc/WwiseFileHandler/UHT/Timestamp
+Plugins/EnginePlugins/Wwise/Intermediate/Build/Win64/UnrealEditor/Inc/WwiseResourceLoader/UHT/Timestamp
+Plugins/EnginePlugins/Wwise/Intermediate/Build/Win64/UnrealEditor/Inc/WwiseSoundEngine/UHT/Timestamp
+Plugins/Marketplace/GFurPRO/Intermediate/Build/Win64/UnrealEditor/Inc/GFur/UHT/Timestamp

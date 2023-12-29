@@ -10,6 +10,7 @@ public class CriWareRuntime : ModuleRules {
             "Core",
             "CoreUObject",
             "Engine",
+            "AudioExtensions"
         });
     }
 }
