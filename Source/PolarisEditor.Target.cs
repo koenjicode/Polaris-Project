@@ -5,6 +5,7 @@ public class PolarisEditorTarget : TargetRules {
 		Type = TargetType.Editor;
 		ExtraModuleNames.AddRange(new string[] {
 			"Polaris",
+			"PolarisEditor"
 		});
 	}
 }

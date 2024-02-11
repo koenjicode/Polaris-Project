@@ -73,7 +73,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/*/Intermediate/*
+Plugins/*
 Plugins/Marketplace/*/Intermediate/*
 Plugins/EnginePlugins/*/Intermediate/*
 Plugins/EnginePlugins/*/*/Intermediate/*
@@ -91,3 +91,7 @@ Content/*
 
 # Packaged Folder
 Packaged/*
+Plugins/EnginePlugins/FX/HoudiniNiagara/Binaries/Win64/UnrealEditor-HoudiniNiagara.pdb
+Plugins/EnginePlugins/FX/HoudiniNiagara/Binaries/Win64/UnrealEditor-HoudiniNiagara.pdb
+Plugins/EnginePlugins/FX/HoudiniNiagara/Intermediate/Build/Win64/UnrealEditor/Inc/HoudiniNiagara/UHT/EHoudiniAttributes.gen.cpp
+Plugins/EnginePlugins/FX/HoudiniNiagara/Binaries/Win64/UnrealEditor-HoudiniNiagara.pdb
