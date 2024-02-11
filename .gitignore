@@ -78,6 +78,9 @@ Plugins/Marketplace/*/Intermediate/*
 Plugins/EnginePlugins/*/Intermediate/*
 Plugins/EnginePlugins/*/*/Intermediate/*
 Plugins/EnginePlugins/*/*/*/Intermediate/*
+Plugins/EnginePlugins/FX/*
+Plugins/EnginePlugins/Marketplace/*/Intermediate/*
+Plugins/EnginePlugins/Runtime/*/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
