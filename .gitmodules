@@ -1,3 +1,4 @@
 [submodule "Content/Python/Json2DA"]
 	path = Content/Python/Json2DA
 	url = https://github.com/peek6/Json2DA.git
+	branch = tekken8
