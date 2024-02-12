@@ -1,23 +1,71 @@
 #include "PolarisEditorModule.h"
 
-IMPLEMENT_GAME_MODULE(FPolarisEditorModule, PolarisEditor);
+#define LOCTEXT_NAMESPACE "PolarisEditor"
 
-void FPolarisEditorModule::StartupModule()
+class FPolarisGameEditor : public IPolarisGameEditorModule
 {
-	CustomizeSetAssetTypeActions = MakeShared<FCustomizeSetActions>();
-	FAssetToolsModule::GetModule().Get().RegisterAssetTypeActions(CustomizeSetAssetTypeActions.ToSharedRef());
+public:
+	FPolarisGameEditor()
+		: PolarisGameAssetCategoryBit(EAssetTypeCategories::Misc)
+	{
+	}
 
-	AuraCharacterAssetTypeActions = MakeShared<FAuraCharacterItemActions>();
-	FAssetToolsModule::GetModule().Get().RegisterAssetTypeActions(AuraCharacterAssetTypeActions.ToSharedRef());
+	virtual uint32 GetPolarisGameAssetCategory() const override { return PolarisGameAssetCategoryBit; }
 
+private:
 	
-}
+	/** All created asset type actions.  Cached here so that we can unregister them during shutdown. */
+	TArray<TSharedPtr<IAssetTypeActions>> CreatedAssetTypeActions;
+	EAssetTypeCategories::Type PolarisGameAssetCategoryBit;
 
-void FPolarisEditorModule::ShutdownModule()
-{
-	if (!FModuleManager::Get().IsModuleLoaded("AssetTools")) return;
+public:
 	
-	FAssetToolsModule::GetModule().Get().UnregisterAssetTypeActions(CustomizeSetAssetTypeActions.ToSharedRef());
+	virtual void StartupModule() override
+	{
+		// Register asset types
+		IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
+		
+		PolarisGameAssetCategoryBit = AssetTools.RegisterAdvancedAssetCategory(FName(TEXT("Polaris")),
+			LOCTEXT("PolarisAssetCategory", "Polaris"));
 
-	FAssetToolsModule::GetModule().Get().UnregisterAssetTypeActions(AuraCharacterAssetTypeActions.ToSharedRef());
-}
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FAuraCharacterItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseCharacterItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseEyeItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseMakeItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeSetActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FEffectCharacterItemActions(PolarisGameAssetCategoryBit)));
+	}
+
+	virtual void ShutdownModule() override
+	{
+
+		// Unregister the details customization
+		//@TODO: Unregister them
+
+		// Unregister all the asset types that we registered
+		if (FModuleManager::Get().IsModuleLoaded("AssetTools"))
+		{
+			IAssetTools& AssetTools = FModuleManager::GetModuleChecked<FAssetToolsModule>("AssetTools").Get();
+			for (int32 Index = 0; Index < CreatedAssetTypeActions.Num(); ++Index)
+			{
+				AssetTools.UnregisterAssetTypeActions(CreatedAssetTypeActions[Index].ToSharedRef());
+			}
+		}
+		
+		CreatedAssetTypeActions.Empty();
+	}
+private:
+	
+	void RegisterAssetTypeAction(IAssetTools& AssetTools, TSharedRef<IAssetTypeActions> Action)
+	{
+		AssetTools.RegisterAssetTypeActions(Action);
+		CreatedAssetTypeActions.Add(Action);
+	}
+};
+
+//////////////////////////////////////////////////////////////////////////
+
+IMPLEMENT_MODULE(FPolarisGameEditor, PolarisEditor);
+
+#undef LOCTEXT_NAMESPACE

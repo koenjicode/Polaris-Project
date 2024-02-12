@@ -2,15 +2,11 @@
     #include "Modules/ModuleInterface.h"
     #include "CustomizeSetActions.h"
 
-    class FPolarisEditorModule : public IModuleInterface
+    #define TEKKENGAME_EDITOR_MODULE_NAME "PolarisGameEditor"
+
+    class IPolarisGameEditorModule : public IModuleInterface
     {
     public:
 
-        virtual void StartupModule() override;
-        virtual void ShutdownModule() override;
-        
-    private:
-
-        TSharedPtr<FCustomizeSetActions> CustomizeSetAssetTypeActions;
-        TSharedPtr<FAuraCharacterItemActions> AuraCharacterAssetTypeActions;
+        virtual uint32 GetPolarisGameAssetCategory() const = 0;
     };
