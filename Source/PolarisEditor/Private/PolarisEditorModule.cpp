@@ -31,6 +31,7 @@ public:
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FAuraCharacterItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseCharacterItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseEyeItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FBaseMakeItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeSetActions(PolarisGameAssetCategoryBit)));
