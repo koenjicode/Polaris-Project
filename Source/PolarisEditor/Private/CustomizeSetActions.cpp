@@ -226,3 +226,30 @@ uint32 FEffectCharacterItemActions::GetCategories()
 {
 	return PolarisCategory;
 }
+
+// ITEM PREFAB
+
+FItemPrefabActions::FItemPrefabActions(EAssetTypeCategories::Type InAssetCategory)
+{
+	PolarisCategory = InAssetCategory;
+}
+
+UClass* FItemPrefabActions::GetSupportedClass() const
+{
+	return UEffectCharacterItem::StaticClass();
+}
+
+FText FItemPrefabActions::GetName() const
+{
+	return INVTEXT("Polaris Item Prefab");
+}
+
+FColor FItemPrefabActions::GetTypeColor() const
+{
+	return FColor::Cyan;
+}
+
+uint32 FItemPrefabActions::GetCategories()
+{
+	return EAssetTypeCategories::Basic | PolarisCategory;
+}

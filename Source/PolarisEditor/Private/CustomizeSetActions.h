@@ -118,3 +118,17 @@ private:
 	
 	EAssetTypeCategories::Type PolarisCategory;
 };
+
+class FItemPrefabActions : public FAssetTypeActions_Base
+{
+public:
+	FItemPrefabActions(EAssetTypeCategories::Type InAssetCategory);
+	
+	UClass* GetSupportedClass() const override;
+	FText GetName() const override;
+	FColor GetTypeColor() const override;
+	uint32 GetCategories() override;
+private:
+	
+	EAssetTypeCategories::Type PolarisCategory;
+};

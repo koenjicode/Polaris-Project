@@ -35,6 +35,7 @@ public:
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeSetActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FEffectCharacterItemActions(PolarisGameAssetCategoryBit)));
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FItemPrefabActions(PolarisGameAssetCategoryBit)));
 	}
 
 	virtual void ShutdownModule() override
