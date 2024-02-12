@@ -10,6 +10,7 @@
 #include "CustomizeItem.h"
 #include "CustomizeSet.h"
 #include "EffectCharacterItem.h"
+#include "ItemPrefab.h"
 
 // AURA CHARACTER ITEM
 
@@ -236,7 +237,7 @@ FItemPrefabActions::FItemPrefabActions(EAssetTypeCategories::Type InAssetCategor
 
 UClass* FItemPrefabActions::GetSupportedClass() const
 {
-	return UEffectCharacterItem::StaticClass();
+	return UItemPrefab::StaticClass();
 }
 
 FText FItemPrefabActions::GetName() const
