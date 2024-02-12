@@ -1,6 +1,6 @@
     #pragma once
     #include "Modules/ModuleInterface.h"
-    #include "Modules/ModuleManager.h"
+    #include "CustomizeSetActions.h"
 
     class FPolarisEditorModule : public IModuleInterface
     {
@@ -12,4 +12,5 @@
     private:
 
         TSharedPtr<FCustomizeSetActions> CustomizeSetAssetTypeActions;
+        TSharedPtr<FAuraCharacterItemActions> AuraCharacterAssetTypeActions;
     };

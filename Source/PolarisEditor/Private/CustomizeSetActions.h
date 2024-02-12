@@ -13,3 +13,12 @@ public:
 	FColor GetTypeColor() const override;
 	uint32 GetCategories() override;
 };
+
+class FAuraCharacterItemActions : public FAssetTypeActions_Base
+{
+public:
+	UClass* GetSupportedClass() const override;
+	FText GetName() const override;
+	FColor GetTypeColor() const override;
+	uint32 GetCategories() override;
+};

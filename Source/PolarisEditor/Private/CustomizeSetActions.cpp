@@ -2,8 +2,10 @@
 
 
 #include "CustomizeSetActions.h"
-
+#include "AuraCharacterItem.h"
 #include "CustomizeSet.h"
+
+// CUSTOMIZE SET ACTIONS
 
 UClass* FCustomizeSetActions::GetSupportedClass() const
 {
@@ -12,7 +14,7 @@ UClass* FCustomizeSetActions::GetSupportedClass() const
 
 FText FCustomizeSetActions::GetName() const
 {
-	return INVTEXT("Customization Set");
+	return INVTEXT("Polaris Customization Set");
 }
 
 FColor FCustomizeSetActions::GetTypeColor() const
@@ -21,6 +23,28 @@ FColor FCustomizeSetActions::GetTypeColor() const
 }
 
 uint32 FCustomizeSetActions::GetCategories()
+{
+	return EAssetTypeCategories::Basic;
+}
+
+// AURA CHARACTER ITEM ACTIONS
+
+UClass* FAuraCharacterItemActions::GetSupportedClass() const
+{
+	return UAuraCharacterItem::StaticClass();
+}
+
+FText FAuraCharacterItemActions::GetName() const
+{
+	return INVTEXT("Polaris Aura Character Item");
+}
+
+FColor FAuraCharacterItemActions::GetTypeColor() const
+{
+	return FColor::Cyan;
+}
+
+uint32 FAuraCharacterItemActions::GetCategories()
 {
 	return EAssetTypeCategories::Basic;
 }
