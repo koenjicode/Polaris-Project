@@ -305,7 +305,6 @@
 	"TargetPlatforms": [
 		"PS5",
 		"Windows",
-		"XSX",
-		"HoloLens"
+		"XSX"
 	]
 }
