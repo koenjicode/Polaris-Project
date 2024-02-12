@@ -86,11 +86,6 @@ Plugins/EnginePlugins/Runtime/*/*/Intermediate/*
 DerivedDataCache/*
 
 # Content Folder
-Content/**/*
-!Content/Mods/TekkenTestMod/
-!Content/Mods/TekkenTestMod/*
-!Content/Python/
-!Content/Python/*
 
 # Packaged Folder
 Packaged/*

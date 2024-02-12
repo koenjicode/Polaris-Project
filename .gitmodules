@@ -1,4 +1,4 @@
-[submodule "Content/Python"]
+[submodule "Python"]
 	path = Content/Python
-	url = https://github.com/peek6/Json2DA.git
+	url = https://github.com/peek6/Json2DA
 	branch = tekken8
