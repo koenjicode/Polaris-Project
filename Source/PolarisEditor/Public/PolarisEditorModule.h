@@ -4,7 +4,12 @@
 
     class FPolarisEditorModule : public IModuleInterface
     {
-        public:
+    public:
+
         virtual void StartupModule() override;
         virtual void ShutdownModule() override;
+        
+    private:
+
+        TSharedPtr<FCustomizeSetActions> CustomizeSetAssetTypeActions;
     };

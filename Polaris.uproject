@@ -16,7 +16,10 @@
 		{
 			"Name": "PolarisEditor",
 			"Type": "Editor",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UnrealEd"
+			]
 		}
 	],
 	"Plugins": [
@@ -302,6 +305,7 @@
 	"TargetPlatforms": [
 		"PS5",
 		"Windows",
-		"XSX"
+		"XSX",
+		"HoloLens"
 	]
 }
