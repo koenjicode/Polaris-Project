@@ -1,4 +1,5 @@
 #include "PolarisEditorModule.h"
+#include "PolarisSetActions.h"
 
 #define LOCTEXT_NAMESPACE "PolarisEditor"
 

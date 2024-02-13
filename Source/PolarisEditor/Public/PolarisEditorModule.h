@@ -1,8 +1,7 @@
     #pragma once
     #include "Modules/ModuleInterface.h"
-    #include "CustomizeSetActions.h"
 
-    #define TEKKENGAME_EDITOR_MODULE_NAME "PolarisGameEditor"
+#define TEKKENGAME_EDITOR_MODULE_NAME "PolarisGameEditor"
 
     class IPolarisGameEditorModule : public IModuleInterface
     {
