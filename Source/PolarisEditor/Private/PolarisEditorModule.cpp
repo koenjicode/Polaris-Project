@@ -1,5 +1,7 @@
 #include "PolarisEditorModule.h"
-#include "PolarisSetActions.h"
+
+#include "PhoenixTypeActions.h"
+#include "PolarisTypeActions.h"
 
 #define LOCTEXT_NAMESPACE "PolarisEditor"
 
@@ -38,6 +40,8 @@ public:
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FCustomizeSetActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FEffectCharacterItemActions(PolarisGameAssetCategoryBit)));
 		RegisterAssetTypeAction(AssetTools, MakeShareable(new FItemPrefabActions(PolarisGameAssetCategoryBit)));
+
+		RegisterAssetTypeAction(AssetTools, MakeShareable(new FPhoenixDynamicBoneBinaryActions(PolarisGameAssetCategoryBit)));
 	}
 
 	virtual void ShutdownModule() override
