@@ -15,6 +15,11 @@ APolarisDebugCustomizeActor::APolarisDebugCustomizeActor(const FObjectInitialize
     this->BaseMakeItemSets.AddDefaulted(5);
     this->BaseSESTItemSets.AddDefaulted(5);
     this->MyPolarisCharacterActor = NULL;
+    this->IsSuntan = false;
+    this->isDevilSkin = false;
+    this->SweatBlend = 0;
+    this->Wetness = 0;
+    this->DirtyBlend = 0;
     this->targetCustomizeSet = NULL;
     this->createCustomizeSetCharacter = 0;
     this->createCustomizeSetPath = TEXT("/Game/Character/Item/Customize_Set");

@@ -3,7 +3,7 @@
 UProfileBlueprintFunctionLibrary::UProfileBlueprintFunctionLibrary() {
 }
 
-void UProfileBlueprintFunctionLibrary::StartLoadCharacter(FPlayerProfileData& profile_data, FTransform& Transform) {
+void UProfileBlueprintFunctionLibrary::StartLoadCharacter(FPlayerProfileData& profile_data, FTransform& Transform, bool is_force) {
 }
 
 void UProfileBlueprintFunctionLibrary::StartDeleteCharacter() {

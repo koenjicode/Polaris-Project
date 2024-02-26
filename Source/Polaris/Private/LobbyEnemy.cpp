@@ -6,6 +6,7 @@ ALobbyEnemy::ALobbyEnemy(const FObjectInitializer& ObjectInitializer) : Super(Ob
     this->_isFriend = false;
     this->_isFollow = false;
     this->_rank = -1;
+    this->_platform012 = 0;
     this->LobbyFootstepComponent = CreateDefaultSubobject<ULobbyFootstepComponent>(TEXT("FootstepComponent"));
     this->_currentMilliSeconds = -1;
     this->_playingEmoteMilliSeconds = -1;
@@ -58,12 +59,8 @@ bool ALobbyEnemy::InterpolationMove() {
 }
 
 
-int32 ALobbyEnemy::GetOtherStateIndex() {
+int32 ALobbyEnemy::GetSeatId() {
     return 0;
-}
-
-FLobbyOtherState ALobbyEnemy::GetOtherState() {
-    return FLobbyOtherState{};
 }
 
 void ALobbyEnemy::DirectMove() {

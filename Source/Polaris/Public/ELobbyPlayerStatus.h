@@ -13,6 +13,7 @@ enum class ELobbyPlayerStatus : uint8 {
     GhostBattle,
     AnywhereBattle,
     Battle,
+    PlayerMatch,
     LongWarp = 100,
     ShortWarp,
 };

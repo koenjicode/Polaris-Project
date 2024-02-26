@@ -684,6 +684,10 @@ int32 UPolarisTAMFunctionLibrary::GetMachineEventNpcId() {
     return 0;
 }
 
+bool UPolarisTAMFunctionLibrary::GetIsTamNPCButtleMode() {
+    return false;
+}
+
 bool UPolarisTAMFunctionLibrary::GetIsTamMode() {
     return false;
 }

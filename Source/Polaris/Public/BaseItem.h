@@ -182,6 +182,9 @@ public:
     bool IsDisableMouse;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool IsEnableFresnelOff;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<UPolarisCharacterMotionOverrideData*> MotionOverrideDatas;
     
     UBaseItem();

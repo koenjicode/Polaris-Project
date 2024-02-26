@@ -7,6 +7,7 @@ UPolarisUMGSideSelect::UPolarisUMGSideSelect() {
 
 
 
+
 void UPolarisUMGSideSelect::InvokeSelectCallback(int32 ID) {
 }
 

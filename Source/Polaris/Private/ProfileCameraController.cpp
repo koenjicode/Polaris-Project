@@ -4,6 +4,9 @@ AProfileCameraController::AProfileCameraController(const FObjectInitializer& Obj
     this->Distance = 1000.00f;
 }
 
+void AProfileCameraController::TouchBGMeshes() {
+}
+
 void AProfileCameraController::AdjustBGToCamera() {
 }
 

@@ -7,7 +7,6 @@ ALobbyPlayer::ALobbyPlayer(const FObjectInitializer& ObjectInitializer) : Super(
     this->_isEnableUpdate = true;
     this->LobbyFootstepComponent = CreateDefaultSubobject<ULobbyFootstepComponent>(TEXT("FootstepComponent"));
     this->_isResumed = false;
-    this->_status = ELobbyPlayerStatus::None;
     this->_nearEnemyCount = 0;
     this->_farEnemyCount = 0;
 }
@@ -100,6 +99,10 @@ FVector ALobbyPlayer::GetStandingLocation() const {
 
 int32 ALobbyPlayer::GetSeatId() {
     return 0;
+}
+
+ELobbyPlayerStatus ALobbyPlayer::GetOverheadStatus() {
+    return ELobbyPlayerStatus::None;
 }
 
 

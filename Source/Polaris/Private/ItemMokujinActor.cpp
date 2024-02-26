@@ -4,6 +4,7 @@ AItemMokujinActor::AItemMokujinActor(const FObjectInitializer& ObjectInitializer
 }
 
 
+
 void AItemMokujinActor::OnTimeUp(FEventOnTimeUpParam Param) {
 }
 
@@ -37,6 +38,7 @@ void AItemMokujinActor::OnPreInitBattle() {
 
 
 
+
 void AItemMokujinActor::OnKO(FEventOnKOParam Param) {
 }
 
@@ -49,6 +51,7 @@ void AItemMokujinActor::onHit(FEventOnHitParam Param) {
 
 void AItemMokujinActor::OnDoubleKO(FEventOnDoubleKOParam Param) {
 }
+
 
 
 void AItemMokujinActor::onCriticalHit(FEventOnCriticalHitParam Param) {

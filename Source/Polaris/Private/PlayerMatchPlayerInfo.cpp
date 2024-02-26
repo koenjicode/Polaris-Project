@@ -7,6 +7,7 @@ FPlayerMatchPlayerInfo::FPlayerMatchPlayerInfo() {
     this->rank_l = NULL;
     this->shogo_id = 0;
     this->shogo_bg = NULL;
+    this->wifi_flag = false;
     this->antena_state = 0;
     this->player_state = EPlayerMatchPLayerStatus::NOT_ENTRY;
     this->win_count = 0;

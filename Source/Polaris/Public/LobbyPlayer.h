@@ -33,9 +33,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool _isResumed;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    ELobbyPlayerStatus _status;
-    
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 _nearEnemyCount;
@@ -166,6 +163,9 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     int32 GetSeatId();
+    
+    UFUNCTION(BlueprintCallable, BlueprintPure)
+    ELobbyPlayerStatus GetOverheadStatus();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     ULobbyAvatarData* GetAvatarData();

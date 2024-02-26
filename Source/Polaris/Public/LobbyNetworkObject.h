@@ -35,6 +35,9 @@ public:
     void InitializeResume();
     
     UFUNCTION(BlueprintCallable)
+    TArray<int64> GetSpawnEnemies();
+    
+    UFUNCTION(BlueprintCallable)
     TArray<int64> GetRemoveEnemies();
     
     UFUNCTION(BlueprintCallable)
@@ -45,9 +48,6 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void GetEnemiesCosmosIdAndNames(TMap<FName, FString>& Result);
-    
-    UFUNCTION(BlueprintCallable)
-    void GetEnemiesCosmosIdAnd(TArray<FName>& cosmosId, TArray<FString>& onlineName, TArray<FString>& polarisId);
     
     UFUNCTION(BlueprintCallable)
     bool GetCoordinateDebug();

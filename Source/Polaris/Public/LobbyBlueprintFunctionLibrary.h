@@ -63,6 +63,9 @@ public:
     static void LobbyTestFunc();
     
     UFUNCTION(BlueprintCallable)
+    static void LobbyTestEmoteKpi(int32 Count);
+    
+    UFUNCTION(BlueprintCallable)
     static void LobbyShowInformationBar(const FString& textId);
     
     UFUNCTION(BlueprintCallable)
@@ -137,9 +140,6 @@ public:
     UFUNCTION(BlueprintCallable)
     static void LobbyJoinInvitedSession(const FInviteSessionInfo& invite_session_info, ULobbyBlueprintFunctionLibrary::FLobbyOnGetBool Callback);
     
-    UFUNCTION(BlueprintCallable, BlueprintPure)
-    static bool LobbyIsTrialVersion();
-    
     UFUNCTION(BlueprintCallable)
     static bool LobbyIsSystemInitialized();
     
@@ -180,6 +180,9 @@ public:
     static bool LobbyIsInOnlineLobbyScene();
     
     UFUNCTION(BlueprintCallable)
+    static bool LobbyIsInformationBarStackEmpty();
+    
+    UFUNCTION(BlueprintCallable)
     static bool LobbyIsInCommunityMenuScene();
     
     UFUNCTION(BlueprintCallable)
@@ -202,6 +205,9 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool LobbyIsCbt();
+    
+    UFUNCTION(BlueprintCallable)
+    static bool LobbyIsButtonHelpStackEmpty();
     
     UFUNCTION(BlueprintCallable)
     static void LobbyInputConvert(const float& inX, const float& inY, float& OutValue, float& outRadian);

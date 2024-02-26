@@ -6,6 +6,7 @@ APolarisSoundPositionActor::APolarisSoundPositionActor(const FObjectInitializer&
     this->IsSoundPlaying = false;
     this->IsBattlePositionActor = false;
     this->IsBattleBasePositionActor = false;
+    this->NoMultiPlayFrame = 0;
     this->RootScene = (USceneComponent*)RootComponent;
 }
 

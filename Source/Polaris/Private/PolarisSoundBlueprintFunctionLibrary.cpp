@@ -12,11 +12,11 @@ void UPolarisSoundBlueprintFunctionLibrary::SetWWiseStateValue(const FString& St
 void UPolarisSoundBlueprintFunctionLibrary::SetWWiseRTPCValue(const FString& RTPCName, float RTPCValue, int32 InterpolateTime, AActor* SrcActor) {
 }
 
-int32 UPolarisSoundBlueprintFunctionLibrary::KeyOnSoundFromAkComponent(UAkAudioEvent* _Event, UAkComponent* _srcAkComp) {
+int32 UPolarisSoundBlueprintFunctionLibrary::KeyOnSoundFromAkComponent(UAkAudioEvent* _Event, int32 NoMultiPlayFrame, UAkComponent* _srcAkComp) {
     return 0;
 }
 
-int32 UPolarisSoundBlueprintFunctionLibrary::KeyOnSoundFromActor(UAkAudioEvent* _Event, AActor* _srcActor) {
+int32 UPolarisSoundBlueprintFunctionLibrary::KeyOnSoundFromActor(UAkAudioEvent* _Event, int32 NoMultiPlayFrame, AActor* _srcActor) {
     return 0;
 }
 

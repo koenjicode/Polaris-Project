@@ -3,10 +3,15 @@
 #include "GameFramework/Actor.h"
 #include "ProfileController.generated.h"
 
+class AProfileCameraController;
+
 UCLASS(Blueprintable)
 class POLARIS_API AProfileController : public AActor {
     GENERATED_BODY()
 public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool InputEnabled;
+    
     AProfileController(const FObjectInitializer& ObjectInitializer);
 
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
@@ -69,6 +74,9 @@ public:
     UFUNCTION(BlueprintCallable)
     bool IsLightLevelLoaded(int32 view_type);
     
+    UFUNCTION(BlueprintCallable)
+    bool IsEnableInput();
+    
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     bool IsCurrentVerticalRepeat();
     
@@ -103,7 +111,7 @@ public:
     AActor* GetCharacterSpawnRoot();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    AActor* GetCameraController();
+    AProfileCameraController* GetCameraController();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     int32 GetBgUnlockId(const FString& bg_id);

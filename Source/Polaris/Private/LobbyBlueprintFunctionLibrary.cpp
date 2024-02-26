@@ -35,6 +35,9 @@ void ULobbyBlueprintFunctionLibrary::LobbyTestFunc2() {
 void ULobbyBlueprintFunctionLibrary::LobbyTestFunc() {
 }
 
+void ULobbyBlueprintFunctionLibrary::LobbyTestEmoteKpi(int32 Count) {
+}
+
 void ULobbyBlueprintFunctionLibrary::LobbyShowInformationBar(const FString& textId) {
 }
 
@@ -115,10 +118,6 @@ void ULobbyBlueprintFunctionLibrary::LobbyLoadPath(FString& Path, TArray<float>&
 void ULobbyBlueprintFunctionLibrary::LobbyJoinInvitedSession(const FInviteSessionInfo& invite_session_info, ULobbyBlueprintFunctionLibrary::FLobbyOnGetBool Callback) {
 }
 
-bool ULobbyBlueprintFunctionLibrary::LobbyIsTrialVersion() {
-    return false;
-}
-
 bool ULobbyBlueprintFunctionLibrary::LobbyIsSystemInitialized() {
     return false;
 }
@@ -171,6 +170,10 @@ bool ULobbyBlueprintFunctionLibrary::LobbyIsInOnlineLobbyScene() {
     return false;
 }
 
+bool ULobbyBlueprintFunctionLibrary::LobbyIsInformationBarStackEmpty() {
+    return false;
+}
+
 bool ULobbyBlueprintFunctionLibrary::LobbyIsInCommunityMenuScene() {
     return false;
 }
@@ -200,6 +203,10 @@ bool ULobbyBlueprintFunctionLibrary::LobbyIsCnt2() {
 }
 
 bool ULobbyBlueprintFunctionLibrary::LobbyIsCbt() {
+    return false;
+}
+
+bool ULobbyBlueprintFunctionLibrary::LobbyIsButtonHelpStackEmpty() {
     return false;
 }
 

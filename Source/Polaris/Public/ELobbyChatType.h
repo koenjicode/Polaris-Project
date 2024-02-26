@@ -8,5 +8,6 @@ enum class ELobbyChatType : uint8 {
     PlayerMatch,
     WatchBattle,
     Ball,
+    Other,
 };
 

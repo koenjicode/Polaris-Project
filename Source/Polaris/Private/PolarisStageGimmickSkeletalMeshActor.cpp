@@ -24,10 +24,10 @@ APolarisStageGimmickSkeletalMeshActor::APolarisStageGimmickSkeletalMeshActor(con
     this->VisibleEffectFlag = 0;
     this->CurrentBreakPattern = EPolarisStageGimmickBreakPattern::None;
     this->LastImpulseStrengthType = 0;
-    this->PolarisMeshDeformComponent->SetupAttachment(SkeletalMeshComponent);
     this->DefaultMeshComponent->SetupAttachment(RootComponent);
     this->SkeletalMeshComponent->SetupAttachment(RootComponent);
     this->BrokenMeshComponent->SetupAttachment(RootComponent);
+    this->PolarisMeshDeformComponent->SetupAttachment(SkeletalMeshComponent);
 }
 
 

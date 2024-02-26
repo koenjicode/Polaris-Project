@@ -3,6 +3,7 @@
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/StaticMeshActor.h"
+#include "EStageBreakType.h"
 #include "EStageGimmickState.h"
 #include "LevelEffectWorldActorParam.h"
 #include "PolarisForceParam.h"
@@ -225,7 +226,7 @@ public:
     int32 GetDestructLevel() const;
     
     UFUNCTION(BlueprintCallable)
-    void ChangeDestructLevel(int32 Level);
+    void ChangeDestructLevel(int32 Level, EStageBreakType stageBreakType);
     
 };
 

@@ -26,6 +26,9 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 _rank;
     
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    int32 _platform012;
+    
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     ULobbyFootstepComponent* LobbyFootstepComponent;
@@ -91,10 +94,7 @@ protected:
     
 public:
     UFUNCTION(BlueprintCallable)
-    int32 GetOtherStateIndex();
-    
-    UFUNCTION(BlueprintCallable)
-    FLobbyOtherState GetOtherState();
+    int32 GetSeatId();
     
     UFUNCTION(BlueprintCallable)
     void DirectMove();

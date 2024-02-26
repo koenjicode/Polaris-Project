@@ -8,6 +8,7 @@ FSessionListData::FSessionListData() {
     this->current_private_slot = 0;
     this->same_time_battle_num = 0;
     this->round_count = 0;
+    this->wifi_flag = false;
     this->antena_state = 0;
     this->has_pass_code = false;
     this->host_characterIcon = NULL;

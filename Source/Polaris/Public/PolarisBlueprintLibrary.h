@@ -82,7 +82,7 @@ public:
     static void PolarisExecuteConsoleCommand(UObject* WorldContextObject, const FString& ExecCommand, bool bWriteToLog);
     
     UFUNCTION(BlueprintCallable)
-    static void KeyOnWWiseAudioEvent(UAkAudioEvent* _srcEvent, AActor* _srcActor);
+    static void KeyOnWWiseAudioEvent(UAkAudioEvent* _srcEvent, int32 NoMultiPlayFrame, AActor* _srcActor);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool IsZoneDrive();
@@ -136,6 +136,9 @@ public:
     static bool IsEnableResolutionUpscaling(EPolarisResolutionUpscaling upscaling);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
+    static bool IsDoingZoneCutIn(int32 player_id);
+    
+    UFUNCTION(BlueprintCallable, BlueprintPure)
     static bool IsDoingZone(int32 player_id);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
@@ -176,6 +179,9 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static int32 GetZoneCounter(int32 player_id);
+    
+    UFUNCTION(BlueprintCallable, BlueprintPure)
+    static int32 GetTargetPlayerID(int32 player_id);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     static float GetStatUnitRHIRaw();

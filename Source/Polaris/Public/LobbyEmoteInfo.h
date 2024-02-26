@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
 #include "ELobbyEmoteCategory.h"
+#include "ELobbyEmoteInterpolation.h"
 #include "LobbyEmoteInfo.generated.h"
 
 class UAnimSequence;
@@ -49,6 +50,9 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 unlockId;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    ELobbyEmoteInterpolation Interpolation;
     
     POLARIS_API FLobbyEmoteInfo();
 };

@@ -58,6 +58,9 @@ void APolarisStageEffectManager::RequestBonestep_Implementation(int32 PlayerInde
 }
 
 
+void APolarisStageEffectManager::LatestDebrisUpdate(const int32 tick_count) {
+}
+
 FVector APolarisStageEffectManager::GetFootShadowScale() {
     return FVector{};
 }

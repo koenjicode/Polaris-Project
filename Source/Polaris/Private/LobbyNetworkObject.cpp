@@ -30,6 +30,10 @@ bool ULobbyNetworkObject::IsLobbyError(int32& Type, int32& code, FString& Messag
 void ULobbyNetworkObject::InitializeResume() {
 }
 
+TArray<int64> ULobbyNetworkObject::GetSpawnEnemies() {
+    return TArray<int64>();
+}
+
 TArray<int64> ULobbyNetworkObject::GetRemoveEnemies() {
     return TArray<int64>();
 }
@@ -43,9 +47,6 @@ int32 ULobbyNetworkObject::GetEnemyStateIndex(int64 enemyId) const {
 }
 
 void ULobbyNetworkObject::GetEnemiesCosmosIdAndNames(TMap<FName, FString>& Result) {
-}
-
-void ULobbyNetworkObject::GetEnemiesCosmosIdAnd(TArray<FName>& cosmosId, TArray<FString>& onlineName, TArray<FString>& polarisId) {
 }
 
 bool ULobbyNetworkObject::GetCoordinateDebug() {

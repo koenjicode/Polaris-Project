@@ -21,6 +21,9 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnDecide();
     
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    bool IsAnimationPlayingFromName(const FName& AnimationName);
+    
     UFUNCTION(BlueprintCallable)
     void InvokeSelectCallback(int32 ID);
     

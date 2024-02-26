@@ -82,7 +82,7 @@ int32 APolarisStageGroundActor::GetDestructLevel() const {
     return 0;
 }
 
-void APolarisStageGroundActor::ChangeDestructLevel(int32 Level) {
+void APolarisStageGroundActor::ChangeDestructLevel(int32 Level, EStageBreakType stageBreakType) {
 }
 
 

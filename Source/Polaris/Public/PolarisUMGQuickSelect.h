@@ -35,6 +35,9 @@ public:
     void SetHeader(int32 left_type, int32 right_type);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void SetDisableMouse(int32 side, bool flag);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SelectMenu(int32 side, int32 ID);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)

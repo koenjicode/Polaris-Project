@@ -16,6 +16,7 @@ UPolarisUMGQuickSelect::UPolarisUMGQuickSelect() {
 
 
 
+
 void UPolarisUMGQuickSelect::InvokeSelectCallback(int32 side, int32 ID) {
 }
 

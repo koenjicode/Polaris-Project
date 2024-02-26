@@ -27,7 +27,7 @@ public:
     UProfileBlueprintFunctionLibrary();
 
     UFUNCTION(BlueprintCallable)
-    static void StartLoadCharacter(UPARAM(Ref) FPlayerProfileData& profile_data, UPARAM(Ref) FTransform& Transform);
+    static void StartLoadCharacter(UPARAM(Ref) FPlayerProfileData& profile_data, UPARAM(Ref) FTransform& Transform, bool is_force);
     
     UFUNCTION(BlueprintCallable)
     static void StartDeleteCharacter();

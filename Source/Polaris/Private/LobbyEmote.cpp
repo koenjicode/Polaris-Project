@@ -64,6 +64,10 @@ ELobbyEmoteCategory ULobbyEmote::GetCategory(const FName& emoteId) {
 void ULobbyEmote::GetAllEmoteId(TArray<FName>& Result) {
 }
 
+bool ULobbyEmote::FindAnimation2(bool& EnableCancel, FName& FacialId, FLobbyEmoteAnimSequence& Animation, ELobbyEmoteInterpolation& Interpolation, const FName& emoteId) {
+    return false;
+}
+
 bool ULobbyEmote::FindAnimation(bool& EnableCancel, FName& FacialId, FLobbyEmoteAnimSequence& Animation, const FName& emoteId) {
     return false;
 }

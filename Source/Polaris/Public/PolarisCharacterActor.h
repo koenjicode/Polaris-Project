@@ -851,6 +851,9 @@ public:
     void LoadCustomizeSetForDemo();
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
+    bool IsPracticeDeku();
+    
+    UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsMotheadEnable() const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
@@ -968,6 +971,9 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void GenerateHairColor();
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void DebugUpdateWetSweatDirt();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void CreateSESTBakeSingleRestoreProcess(int32 ItemPos, int32 restoreNo);
@@ -1096,7 +1102,7 @@ public:
     void ChangeLightingChannels(FPolarisLightingChannels lighting_channels);
     
     UFUNCTION(BlueprintCallable)
-    void ChangeDynamicBoneParameters(FName VariationName);
+    void ChangeDynamicBoneParameters(FName VariationName, bool IsInitialize);
     
     UFUNCTION(BlueprintCallable)
     void ChangeCollisionParameters(FName VariationName);

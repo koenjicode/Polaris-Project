@@ -55,7 +55,7 @@ void UPolarisBlueprintLibrary::SetAntiAliasingMethod(EPolarisAntiAliasingMethod 
 void UPolarisBlueprintLibrary::PolarisExecuteConsoleCommand(UObject* WorldContextObject, const FString& ExecCommand, bool bWriteToLog) {
 }
 
-void UPolarisBlueprintLibrary::KeyOnWWiseAudioEvent(UAkAudioEvent* _srcEvent, AActor* _srcActor) {
+void UPolarisBlueprintLibrary::KeyOnWWiseAudioEvent(UAkAudioEvent* _srcEvent, int32 NoMultiPlayFrame, AActor* _srcActor) {
 }
 
 bool UPolarisBlueprintLibrary::IsZoneDrive() {
@@ -126,6 +126,10 @@ bool UPolarisBlueprintLibrary::IsEnableResolutionUpscaling(EPolarisResolutionUps
     return false;
 }
 
+bool UPolarisBlueprintLibrary::IsDoingZoneCutIn(int32 player_id) {
+    return false;
+}
+
 bool UPolarisBlueprintLibrary::IsDoingZone(int32 player_id) {
     return false;
 }
@@ -179,6 +183,10 @@ int32 UPolarisBlueprintLibrary::GetZoneGuardDamage(int32 player_id) {
 }
 
 int32 UPolarisBlueprintLibrary::GetZoneCounter(int32 player_id) {
+    return 0;
+}
+
+int32 UPolarisBlueprintLibrary::GetTargetPlayerID(int32 player_id) {
     return 0;
 }
 

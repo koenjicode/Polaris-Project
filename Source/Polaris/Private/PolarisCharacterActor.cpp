@@ -351,6 +351,10 @@ void APolarisCharacterActor::MeshPartsOffFromSequencer(int32 mesh_num, ULevelSeq
 }
 
 
+bool APolarisCharacterActor::IsPracticeDeku() {
+    return false;
+}
+
 bool APolarisCharacterActor::IsMotheadEnable() const {
     return false;
 }
@@ -495,6 +499,7 @@ void APolarisCharacterActor::GenerateHairColor() {
 
 
 
+
 void APolarisCharacterActor::CreateBodyForSkeletalMesh(USkeletalMesh* msl_mesh, USkeletalMesh* prp_mesh, USkeletalMeshComponent* SourceSkeletalMeshComp, int32 Pos, int32 PropotionType) {
 }
 
@@ -529,7 +534,7 @@ bool APolarisCharacterActor::CheckReceivePlayerEvent(int32 player_id) const {
 void APolarisCharacterActor::ChangeLightingChannels(FPolarisLightingChannels lighting_channels) {
 }
 
-void APolarisCharacterActor::ChangeDynamicBoneParameters(FName VariationName) {
+void APolarisCharacterActor::ChangeDynamicBoneParameters(FName VariationName, bool IsInitialize) {
 }
 
 void APolarisCharacterActor::ChangeCollisionParameters(FName VariationName) {

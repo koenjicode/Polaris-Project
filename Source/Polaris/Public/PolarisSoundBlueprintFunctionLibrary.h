@@ -26,10 +26,10 @@ public:
     static void SetWWiseRTPCValue(const FString& RTPCName, float RTPCValue, int32 InterpolateTime, AActor* SrcActor);
     
     UFUNCTION(BlueprintCallable)
-    static int32 KeyOnSoundFromAkComponent(UAkAudioEvent* _Event, UAkComponent* _srcAkComp);
+    static int32 KeyOnSoundFromAkComponent(UAkAudioEvent* _Event, int32 NoMultiPlayFrame, UAkComponent* _srcAkComp);
     
     UFUNCTION(BlueprintCallable)
-    static int32 KeyOnSoundFromActor(UAkAudioEvent* _Event, AActor* _srcActor);
+    static int32 KeyOnSoundFromActor(UAkAudioEvent* _Event, int32 NoMultiPlayFrame, AActor* _srcActor);
     
     UFUNCTION(BlueprintCallable)
     static int32 KeyOnSoundBattleSysTonePin(FBattleSysToneIdWrapPinStruct _ToneId, AActor* _srcActor);

@@ -83,6 +83,12 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void OnExpired();
     
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnCutOut();
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnCutIn();
+    
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void OnClashed();
     

@@ -624,6 +624,9 @@ public:
     static int32 GetMachineEventNpcId();
     
     UFUNCTION(BlueprintCallable)
+    static bool GetIsTamNPCButtleMode();
+    
+    UFUNCTION(BlueprintCallable)
     static bool GetIsTamMode();
     
     UFUNCTION(BlueprintCallable)

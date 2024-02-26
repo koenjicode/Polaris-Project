@@ -130,6 +130,9 @@ public:
     void RemoveAllParticles();
     
     UFUNCTION(BlueprintCallable)
+    void LatestDebrisUpdate(const int32 tick_count);
+    
+    UFUNCTION(BlueprintCallable)
     FVector GetFootShadowScale();
     
     UFUNCTION(BlueprintCallable)

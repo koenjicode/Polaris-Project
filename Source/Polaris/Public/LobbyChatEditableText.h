@@ -7,12 +7,12 @@
 #include "PolarisEditableText.h"
 #include "LobbyChatEditableText.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnEditableTextKeyDownEvent, const FGeometry&, MyGeometry, const FKeyEvent&, InKeyEvent);
-
 UCLASS(Blueprintable)
 class POLARIS_API ULobbyChatEditableText : public UPolarisEditableText {
     GENERATED_BODY()
 public:
+    DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnEditableTextKeyDownEvent, const FGeometry&, MyGeometry, const FKeyEvent&, InKeyEvent);
+    
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FOnEditableTextKeyDownEvent OnKeyDown;
     

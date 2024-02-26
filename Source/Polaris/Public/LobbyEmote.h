@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "ELobbyEmoteCategory.h"
+#include "ELobbyEmoteInterpolation.h"
 #include "LobbyEmoteAnimSequence.h"
 #include "LobbyEmote.generated.h"
 
@@ -88,6 +89,9 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     void GetAllEmoteId(TArray<FName>& Result);
+    
+    UFUNCTION(BlueprintCallable)
+    bool FindAnimation2(bool& EnableCancel, FName& FacialId, FLobbyEmoteAnimSequence& Animation, ELobbyEmoteInterpolation& Interpolation, const FName& emoteId);
     
     UFUNCTION(BlueprintCallable)
     bool FindAnimation(bool& EnableCancel, FName& FacialId, FLobbyEmoteAnimSequence& Animation, const FName& emoteId);

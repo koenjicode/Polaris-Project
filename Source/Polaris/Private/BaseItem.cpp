@@ -25,6 +25,7 @@ UBaseItem::UBaseItem() {
     this->HairScalpMask = NULL;
     this->isCommonItem = false;
     this->IsDisableMouse = false;
+    this->IsEnableFresnelOff = false;
 }
 
 

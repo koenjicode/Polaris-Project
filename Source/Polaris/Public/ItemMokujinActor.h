@@ -23,6 +23,9 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnWin();
     
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnVictorius();
+    
     UFUNCTION(BlueprintCallable)
     void OnTimeUp(FEventOnTimeUpParam Param);
     
@@ -69,6 +72,9 @@ public:
     void OnPreInitBattle();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnPracticeMain();
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnPlayerEntrance();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
@@ -94,6 +100,9 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void OnDoubleKO(FEventOnDoubleKOParam Param);
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnDefeated();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnCustomize();

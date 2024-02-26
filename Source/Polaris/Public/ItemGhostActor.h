@@ -149,6 +149,9 @@ public:
     
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    void OnPracticeMain();
+    
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnPlayerEntrance();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)

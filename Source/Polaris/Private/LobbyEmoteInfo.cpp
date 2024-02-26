@@ -5,5 +5,6 @@ FLobbyEmoteInfo::FLobbyEmoteInfo() {
     this->Category = ELobbyEmoteCategory::None;
     this->Always = false;
     this->unlockId = 0;
+    this->Interpolation = ELobbyEmoteInterpolation::Default;
 }
 

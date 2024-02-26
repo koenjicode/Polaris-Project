@@ -41,5 +41,8 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnCompleteAnimation();
     
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+    bool HasFinishedAnimIn();
+    
 };
 

@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "LobbyNetwork.generated.h"
+#include "DynamicBonePatchDataStruct.generated.h"
 
 USTRUCT(BlueprintType)
-struct FLobbyNetwork {
+struct POLARIS_API FDynamicBonePatchDataStruct {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<int32> _servers;
+    float RootCollisionScale;
     
-    POLARIS_API FLobbyNetwork();
+    FDynamicBonePatchDataStruct();
 };
 

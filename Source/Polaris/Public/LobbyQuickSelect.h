@@ -19,7 +19,7 @@ public:
     void GetQuickCustomizeSelectInfo(bool& OutIsOpenning, int32& OutCostumeType, int32& OutCustomizeSlotIndex, FString& OutSlotName) const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
-    void GetQuickCustomizeInfo(int32 in_fighter_id, int32 in_customize_select_slot_costume_type, FString& out_customize_slot_name) const;
+    void GetQuickCustomizeInfo(int32 in_fighter_id, int32 in_customize_select_slot_costume_type, int32 in_customize_select_slot_index, FString& out_customize_slot_name) const;
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     void GetQuickCharacterSelectInfo(bool& OutIsOpenning, int32& OutFighterId, FString& OutFighterName) const;

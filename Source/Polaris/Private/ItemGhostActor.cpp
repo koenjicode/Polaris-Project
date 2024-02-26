@@ -57,6 +57,7 @@ void AItemGhostActor::OnPreInitBattle() {
 
 
 
+
 void AItemGhostActor::OnKO(FEventOnKOParam Param) {
 }
 
