@@ -4,11 +4,15 @@
 #include "BaseEyeItemOneEye.generated.h"
 
 class UTexture;
+class UMaterialInstance;
 
 USTRUCT(BlueprintType)
 struct POLARIS_API FBaseEyeItemOneEye {
     GENERATED_BODY()
 public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true))
+    UMaterialInstance* EyeMaterialOverride_Param;
+
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UTexture* Sclera_Param;
     
