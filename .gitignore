@@ -46,13 +46,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
-Plugins/*/*/Binaries/*
-Plugins/*/*/*/Binaries/*
-Plugins/*/*/*/*/Binaries/*
-Plugins/EnginePlugins/FX/*/Binaries/*
-Plugins/EnginePlugins/*/HoudiniNiagara/Binaries/*
+Binaries/
 
 # Builds
 Build/*
@@ -72,24 +66,7 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
-Plugins/**/*
-Plugins/EnginePlugins/DLSS/Intermediate/*
-Plugins/EnginePlugins/FSR2/Intermediate/*
-Plugins/EnginePlugins/Marketplace/NiagaraUIRender/Intermediate/* 
-Plugins/EnginePlugins/Runtime/CriWare/CriWare/Intermediate/*
-Plugins/EnginePlugins/SkinHook/CatwalkCloth/Intermediate/*
-Plugins/EnginePlugins/SkinHook/CatwalkClothInterface/Intermediate/*
-Plugins/EnginePlugins/FX/HoudiniNiagara/Intermediate/* 
-Plugins/EnginePlugins/Wwise/*
-Plugins/Marketplace/*/Intermediate/*
-Plugins/EnginePlugins/*/Intermediate/*
-Plugins/EnginePlugins/*/*/Intermediate/*
-Plugins/EnginePlugins/*/*/*/Intermediate/*
-Plugins/EnginePlugins/FX/*
-Plugins/EnginePlugins/Marketplace/*/Intermediate/*
-Plugins/EnginePlugins/Runtime/*/*/Intermediate/*
-Plugins/Marketplace/GFurPRO/Intermediate/*
+Intermediate/
 
 # Cache files for the editor to use
 DerivedDataCache/*
