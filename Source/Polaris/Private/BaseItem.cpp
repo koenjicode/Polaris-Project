@@ -26,6 +26,5 @@ UBaseItem::UBaseItem() {
     this->isCommonItem = false;
     this->IsDisableMouse = false;
     this->IsEnableFresnelOff = false;
+    this->SourceSkinTintColorCustomMaterial = NULL;
 }
-
-
